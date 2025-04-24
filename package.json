@@ -1,5 +1,15 @@
 {
-  "dependencies": {
-    "remixicon": "^4.6.0"
+  "name": "tea-business",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.2",
+    "vite": "^5.0.0"
   }
 }
