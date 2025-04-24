@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph's Brew
+    </title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <script type="module" crossorigin src="/assets/index-CdmU2M65.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DnqL2XTX.css">
+  </head>
+
+  <body class="m-0">
+
+    <!--------------------------------- HEADER --------------------------------->
+    <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50 flex justify-center">
+      <nav class="container flex items-center justify-between h-16 sm:h-20 p-10 shadow-md">
+        <div class="sm:text-2xl font-bold text-3xl" >Joseph's Brew</div>
+        
+        <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[100vh] w-full bg-yellow-950/50 backdrop-blur-sm flex items-center justify-center duration-300 lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+          <ul class="flex flex-col items-center gap-8 overflow-hidden lg:flex-row">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#popular" class="nav-link">Popular</a></li>
+            <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
+          <i class="ri-menu-line" id="hamburger"></i>
+        </div>
+      </nav>
+    </header>
+      
+    <main class="mt-5">
+      <!--------------------------------- HOME --------------------------------->
+      <section id="home" class="flex justify-center relative px-10 xl:h-screen pt-[10%] lg:text-[160%]">
+        <div class="container">
+          <!-- blob 1 -->
+            <div class="w-80 min-h-80 bg-green-700/30 rounded-full blur-3xl -z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+          
+            <!-- blob 2 -->
+            <div class="w-80 min-h-80 bg-green-700/30 rounded-full blur-3xl -z-10 absolute bottom-0 right-0"></div>
+
+          <div class="flex flex-col items-center gap-5 lg:flex-row mt-10">
+            <!--CONTENT-->
+            <div class="home__data w-full space-y-5 lg:w-1/2">
+              <h1 class="w-[70%]">
+                <span class="text-yellow-500">Fuel</span> your day, the <span class="text-yellow-500">Joseph</span> way
+              </h1>
+              <p class="mt-5 text-slate-100">
+                Taste the craft from <span class="text-yellow-500">Joseph's Brew</span> 
+                Discover the magic of flavor, and treat yourself to a taste that lingers long after the last drop. <span class="text-yellow-500 font-bold">Bold</span> brews. <span class="text-yellow-500 font-bold">Big</span> flavors. 
+                Taste the comfort in every sip.
+              </p>
+
+              <div class="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5v xl:pt-10">
+                <button class="btn">
+                  <span>Shop Now </span><i class="ri-leaf-line"></i>
+                </button>
+                <button class="btn btn_outline">
+                  <span>Know More </span><i class="ri-leaf-line"></i>
+                </button>
+              </div>
+
+              <p>You will get 30% discount for signing-up</p>
+
+              <div class="flex items-center gap-5 lg:pt-10 lg:text-6xl text-3xl mt-0 py-0">
+                <i class="ri-facebook-fill text-slate-200 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                <i class="ri-twitter-x-line text-slate-200 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                <i class="ri-instagram-line text-slate-200 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                <i class="ri-linkedin-fill text-slate-200 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+              </div>
+            </div>
+            <!--IMAGES-->
+            <div class="w-full relative lg:w-1/2 flex justify-center">
+              <img class="home__image" src="/assets/Boba_tea-DpUi-iAO.png" alt="Cheesecake Tea">
+
+              <!--Icons-->
+              <div class="home__float absolute -top-10 right-0 opacity-30 animate-movingY">
+                <i class="ri-leaf-line text-6xl text-yellow-500"></i>
+              </div>
+              <div class="home__float absolute bottom-0 left-0 opacity-30 animate-rotating">
+                <i class="ri-flower-line text-6xl text-yellow-500"></i>
+              </div>
+              <div class="home__float hidden absolute -top-10 left-5 opacity-30 lg:block animate-scalingUp">
+                <i class="ri-plant-line text-6xl text-yellow-500"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------- SERVICES --------------------------------->
+      <div class="bg-white text-green-900 py-20 flex justify-center w-[100%] px-10">
+        <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <!-- Card 1-->
+            <div class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+              <div class="flex items-center gap-5">
+                <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
+                <p class="md:text-lg font-bold">Fast<br>delivery</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vero animi consequuntur nemo dolorum sed, molestias eveniet enim alias nostrum obcaecati reprehenderit ex laboriosam, magnam adipisci libero officiis. Ratione, consectetur?
+              </p>
+            </div>
+            <!-- Card 2-->
+            <div class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+            <div class="flex items-center gap-5">
+              <i class="ri-customer-service-line text-3xl md:text-4xl xl:text-5xl"></i>
+              <p class="md:text-lg font-bold">Great Customer<br>Service</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vero animi consequuntur nemo dolorum sed, molestias eveniet enim alias nostrum obcaecati reprehenderit ex laboriosam, magnam adipisci libero officiis. Ratione, consectetur?
+            </p>
+          </div>
+          <!-- Card 3-->
+          <div class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+          <div class="flex items-center gap-5">
+            <i class="ri-cup-line text-3xl md:text-4xl xl:text-5xl"></i>
+            <p class="md:text-lg font-bold">Authentic<br>Flavors</p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vero animi consequuntur nemo dolorum sed, molestias eveniet enim alias nostrum obcaecati reprehenderit ex laboriosam, magnam adipisci libero officiis. Ratione, consectetur?
+          </p>
+        </div>
+        <!-- Card 4-->
+        <div class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+        <div class="flex items-center gap-5">
+          <i class="ri-money-dollar-circle-line text-3xl md:text-4xl xl:text-5xl"></i>
+          <p class="md:text-lg font-bold">Affordable<br>Happiness</p>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vero animi consequuntur nemo dolorum sed, molestias eveniet enim alias nostrum obcaecati reprehenderit ex laboriosam, magnam adipisci libero officiis. Ratione, consectetur?
+        </p>
+        </div>
+      </div>
+      </div>
+      <!--------------------------------- About Us --------------------------------->
+      <section id="about" class="relative overflow-hidden px-10 md:px-50 xl:px-80">
+        <div class="about__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+          <h2 class="title">About Us</h2>
+          <p class="max-w-2xl">Follow instruction for more</p>
+        </div>
+        
+        <!-- item 1 -->
+        <div>
+          <!-- Image -->
+          <div class="about__item__1-img flex flex-col lg:flex-row justify-center items-center">
+            <div class="lg:w-1/2 flex justify-center">
+              <img src="/assets/Orange-tea-CNXajLZ5.png" alt="Boba Tea" class="w-full sm:w-2/3 md: lg:w-full xl:w-[40%]">
+            </div>
+
+            <!-- Content -->
+            <div class="about__item__1-content  md:w-[50%]">
+              <div class="space-y-5">
+                <h3>You can also <span class="text-yellow-500">CUTOMIZE</span> your own drink</h3>
+                <p class="text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, explicabo eius, atque minima impedit alias, eveniet magnam voluptatibus ducimus veritatis distinctio modi! Aperiam numquam repellat pariatur incidunt magni esse assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, explicabo eius, atque minima impedit alias, eveniet magnam voluptatibus ducimus veritatis distinctio modi! Aperiam numquam repellat pariatur incidunt magni esse assumenda</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- item 2 -->
+        <div class="mt-24">
+          <!-- Image -->
+          <div class="flex flex-col lg:flex-row-reverse justify-center items-center ">
+            <div class="about__item__2-img  lg:w-1/2 flex justify-center">
+              <img src="/assets/Cappuccino-BVaGm-Ko.png" alt="Boba Tea" class="w-full sm:w-2/3 lg:w-auto xl:w-[40%] py-24">
+            </div>
+
+            <!-- Content -->
+            <div class="about__item__2-content md:w-[50%]">
+              <div class="space-y-5">
+                <h3>Hey you! <span class="text-yellow-500">COME</span> with us</h3>
+                <p class="text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, explicabo eius, atque minima impedit alias, eveniet magnam voluptatibus ducimus veritatis distinctio modi! Aperiam numquam repellat pariatur incidunt magni esse assumenda.
+
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, explicabo eius, atque minima impedit alias, eveniet magnam voluptatibus ducimus veritatis distinctio modi! Aperiam numquam repellat pariatur incidunt magni esse assumenda
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+            
+      </section>
+      <!--------------------------------- POPULAR --------------------------------->
+      <section id="popular" class="relative overflow-hidden bg-green-900 ">
+        <div class="popular__top flex flex-col items-center gap-3 text-center mb-40">
+          <h2 class="title">Your Choice Tea</h2>
+          <p class="max-w-2xl">Follow instruction for more</p>
+        </div>
+          
+        <div class="px-10 w-full gap-y-40 gap-x-28 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+          <!-- Card 1 -->
+          <div class="popular__card bg-green-950 flex flex-col justify-center p-10 pt-24 rounded-md relative">
+            <img src="/assets/rapbe-removebg-preview-CdYcMj-T.png" alt="Raspberry Tea" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+
+            <p class="italic opacity-60">Indulge your cravings with</p>
+            <h3>Raspberry Tea</h3>
+
+            <div class="text-yellow-500 text-xs py-3">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+              <i class="ri-star-line text-gray-400"></i>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xl font-bold">₱170.00</p>
+              <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl"><i class="ri-shopping-cart-fill"></i></button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="popular__card bg-green-950 flex flex-col justify-center p-10 pt-24 rounded-md relative">
+            <img src="/assets/IMG_1914-removebg-preview-BkXguYwV.png" alt="Raspberry Tea" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+
+            <p class="italic opacity-60">Quench your thirst with</p>
+            <h3>Matcha Tea</h3>
+
+            <div class="text-yellow-500 text-xs py-3">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+              <i class="ri-star-line text-gray-400"></i>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xl font-bold">₱130.00</p>
+              <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl"><i class="ri-shopping-cart-fill"></i></button>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="popular__card bg-green-950 flex flex-col justify-center p-10 pt-24 rounded-md relative">
+            <img src="/assets/Boba_tea-DpUi-iAO.png" alt="Signature Milk Tea" class="w-44 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+
+            <p class="italic opacity-60">Lift your spirit with our</p>
+            <h3>Signature Milk Tea</h3>
+
+            <div class="text-yellow-500 text-xs py-3">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-line text-gray-400"></i>
+              <i class="ri-star-line text-gray-400"></i>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xl font-bold">₱150.00</p>
+              <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl"><i class="ri-shopping-cart-fill"></i></button>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="popular__card bg-green-950 flex flex-col justify-center p-10 pt-24 rounded-md relative">
+            <img src="/assets/Sugar-Mommy-removebg-preview-lDtFH3H9.png" alt="Raspberry Tea" class="w-44 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+
+            <p class="italic opacity-60">Treat yourself to</p>
+            <h3>Bubblegum Tea</h3>
+
+            <div class="text-yellow-500 text-xs py-3">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xl font-bold">₱150.00 <span class="opacity-85 font-thin">- Free for firstimers</span></p>
+              <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl"><i class="ri-shopping-cart-fill"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+      
+      <!--------------------------------- REVIEWS --------------------------------->
+      <section id="reviews">
+        <div class="review__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+          <h2 class="title">Customer Review</h2>
+          <p class="max-w-2xl">Follow instruction for more</p>
+        </div>
+
+        <div class="review__swiper flex"> 
+          <div class="swiper py12">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6 mx-6">
+                  
+                  <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus modi inventore ex laudantium, nam cum placeat iste, deserunt, doloribus temporibus voluptates labore qui dolor fugit saepe ad ullam quaerat?</p> 
+                  <i class="ri-double-quotes-r text-5xl text-white absolute -top-2 left-2 rotate-180"></i>
+
+                  <div class="flex items-center">
+                    <img src="/assets/Elysia-DXdB6I1h.png" alt="Review" class="w-28 h-28 rounded-full">
+                    <div class="ml-4">
+                      
+                      <p class="text-yellow-500 uppercase text-[25px] font-bold">Elysia Angel </p>
+                      <p>Mechanical Engineer</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6 mx-6">
+                  <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus modi inventore ex laudantium, nam cum placeat iste, deserunt, doloribus temporibus voluptates labore qui dolor fugit saepe ad ullam quaerat?</p> 
+                  <i class="ri-double-quotes-r text-5xl text-white absolute -top-2 left-2 rotate-180"></i>
+
+                  <div class="flex items-center">
+                    <img src="/assets/barney-FcbT2eQi.jpg" alt="Review" class="w-28 h-28 rounded-full">
+                    <div class="ml-4">
+                      
+                      <p class="text-yellow-500 uppercase text-[25px] font-bold">Barney loves you </p>
+                      <p>Psychiatrist</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6 mx-6">
+                  <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus modi inventore ex laudantium, nam cum placeat iste, deserunt, doloribus temporibus voluptates labore qui dolor fugit saepe ad ullam quaerat?</p> 
+                  <i class="ri-double-quotes-r text-5xl text-white absolute -top-2 left-2 rotate-180"></i>
+
+                  <div class="flex items-center">
+                    <img src="/assets/quibs-BA9B2SYw.png" alt="Review" class="w-28 h-28 rounded-full">
+                    <div class="ml-4">
+                      
+                      <p class="text-yellow-500 uppercase text-[25px] font-bold">Apollo Quibs</p>
+                      <p>Virtual Assistant / CEO of TaskUs</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6 mx-6">
+                  <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus modi inventore ex laudantium, nam cum placeat iste, deserunt, doloribus temporibus voluptates labore qui dolor fugit saepe ad ullam quaerat?</p> 
+                  <i class="ri-double-quotes-r text-5xl text-white absolute -top-2 left-2 rotate-180"></i>
+
+                  <div class="flex items-center">
+                    <img src="/assets/Teaa-C5dgaec1.png" alt="Review" class="w-28 h-28 rounded-full">
+                    <div class="ml-4">
+                      
+                      <p class="text-yellow-500 uppercase text-[25px] font-bold">Yummy Teaa </p>
+                      <p>Nun</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6 mx-6">
+                  <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsum dolor sit amet consectetur adipisicing elit. Delectus modi inventore ex modi inventore ex laudantium laudantium, modi inventore ex laudantium nam cum?</p> 
+                  <i class="ri-double-quotes-r text-5xl text-white absolute -top-2 left-2 rotate-180"></i>
+
+                  <div class="flex items-center">
+                    <img src="/assets/JS-B0RRiY_R.png" alt="Review" class="w-28 h-28 rounded-full">
+                    <div class="ml-4">
+                      
+                      <p class="text-yellow-500 uppercase text-[25px] font-bold">Johnny</p>
+                      <p>Doctor, Firefighter, Astronaut, Police officer, Teacher, Plumber, Soldier, etc.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6 mx-6">
+                  <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus modi inventore ex laudantium, nam cum placeat iste, deserunt, doloribus temporibus voluptates labore qui dolor fugit saepe ad ullam quaerat?</p> 
+                  <i class="ri-double-quotes-r text-5xl text-white absolute -top-2 left-2 rotate-180"></i>
+                  
+                  <div class="flex items-center relative">
+                    <img src="/assets/Mark-CTkWB7J8.png" alt="Review" class="w-28 h-28 rounded-full">
+                    <div class="ml-4">
+                      
+                      <p class="text-yellow-500 uppercase text-[25px] font-bold">Mark Zuckerberg</p>
+                      <p>CEO of Meta</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <!-- If we need pagination -->
+            <div class="mt-10">
+              <div class="swiper-pagination mt-[100%]"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------- FOOTER --------------------------------->
+      <footer class="bg-yellow-100 text-green-950 pt-20 mt-20 pb-10 md:pt-28 relative">
+        <!--newsletter-->
+        <div class="flex flex-col justify-center items-center text-white absolute top-0 right-0 left-0 -translate-y-1/2">
+          <div class="bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-md">
+            <h3><span class="text-yellow-500">Subscribe</span> to our newsletter </h3>
+
+            <div class="w-full flex flex-col md:flex-row gap-2">
+              <input type="email" placeholder="Your email address">
+              <button class="flex items-center justify-center gap-2 bg-green-950 px-5 py-3 rounded-md hover:opacity-70 duration-1000">
+                <span>Subscribe</span> <i class="ri-send-plane-2-fill"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- SOCIAL ICONS -->
+           <div class="container mt-16 mb-16">
+            <div class="border-b border-green-500 relative mx-10">
+              <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
+                <div class="bg-yellow-100 text-lg text-center space-x-2 text-green-800 w-[100%] te">
+                  <i class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                  <i class="ri-twitter-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                  <i class="ri-instagram-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                  <i class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+        <!-- CONTENT -->
+         <div class="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
+          <!-- item 1 -->
+           <div>
+            <div class="text-7xl text-green-700 text-center inline-block">
+              <i class="ri-leaf-fill"></i>
+              <p class="text-3xl sm:text-6xl">Joseph's Brew</p>
+            </div>
+           </div>
+           <!-- item 2 -->
+            <div>
+              <p class="mb-5 font-bold text-xl">Quick Links</p>
+              <div class="flex flex-col gap-1">
+                <a href="#">Gift Cards</a>
+                <a href="#">FAQs</a>
+                <a href="#">Blog / Brew Tips</a>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+
+            <!-- item 3 -->
+            <div>
+              <p class="mb-5 font-bold text-xl">Popular Services</p>
+              <div class="flex flex-col gap-1">
+                <a href="#">Our Story</a>
+                <a href="#">Join the Brew Club</a>
+                <a href="#">Track Your Order</a>
+                <a href="#">Special Offers / Promotions</a>
+              </div>
+            </div>
+
+            <!-- item 4 -->
+            <div>
+              <p class="mb-5 font-bold text-xl">Contact Us</p>
+              <div class="flex flex-col gap-1">
+                <a href="#">+63-992-834-8973</a>
+                <a href="#">Joseph's Brew@gmail.com</a>
+
+              </div>
+            </div>
+         </div>
+
+         <div class="flex justify-center">
+          <p class="mt-10 opacity-50">Copyright &copy; 2024 Code-Joseph. All rights reserved.</p>
+         </div>
+      </footer>
+      <!--------------------------------- Scroll up --------------------------------->
+      <a href="#" class="fixed right-4 -bottom-1/2 bg-yellow-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
+      <!--------------------------------- Swiper JS --------------------------------->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!--------------------------------- Scroll reveal --------------------------------->
+      <script src="assets/js/scrollreveal.min.js"></script>
+      <!--------------------------------- Main JS --------------------------------->
+    
+
+  </body>
+</html>
